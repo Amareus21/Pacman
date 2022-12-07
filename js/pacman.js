@@ -181,15 +181,6 @@ DrawLayer._arrayObstacles = new Array();
 class Colision {
     static colision(obstacles, player) {
         for (let obstacle of obstacles) {
-            /*if (
-              player.position.x + player._width > obstacle.position.x &&
-              player.position.x + player.width <
-                obstacle.position.x + obstacle.width &&
-              player.position.y + player.width > obstacle.position.y &&
-              player.position.y + player.width < obstacle.heigth + obstacle.position.y
-            ) {
-              return true;
-            }*/
             let pointA = {
                 x: player.positionX - player.width,
                 y: player.positionY - player.width,
